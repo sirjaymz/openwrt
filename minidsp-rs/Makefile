@@ -13,7 +13,7 @@ PKG_SOURCE:=minidsp-rs-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/mrene/minidsp-rs/tar.gz/v$(PKG_VERSION)?
 PKG_HASH:=2ab458800db532e3e3d28255ff58e6a6f3a985778970bc07ca172611b775dd18
 
-PKG_MAINTAINER:=James Jones <sirjaymz@gmail.com>
+PKG_MAINTAINER:=sirjaymz@gmail.com
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE
 PKG_URL:=https://github.com/sirjaymz/openwrt/minidsp-rs
