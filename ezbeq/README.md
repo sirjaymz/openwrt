@@ -1,0 +1,1 @@
+A simple web browser for beqcatalogue which integrates with minidsp-rs for local remote control of a minidsp or HTP-1.
