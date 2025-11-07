@@ -1,12 +1,11 @@
 ## MIT LICENSE
-## 
 
 
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=minidsp-rs
 PKG_VERSION:=0.1.12
-PKG_RELEASE:=5
+PKG_RELEASE:=6
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/minidsp-rs-$(PKG_VERSION)-$(PKG_RELEASE)
 PKG_SOURCE:=minidsp-rs-$(PKG_VERSION).tar.gz
@@ -59,11 +58,11 @@ CONFIGURE_VARS += CARGO_HOME=$(CARGO_HOME) RUSTFLAGS=$(RUSTFLAGS)
 
 
 
-## define Package/dgminidsp-rs/conffiles
+## define Package/minidsp-rs/conffiles
 ## /etc/minidsp/config.toml
 ## endef
 
-## define Package/dgminidsp-rs/install
+## define Package/minidsp-rs/install
 ## 	$(INSTALL_DIR) $(1)/usr/bin
 ##  	$(INSTALL_BIN) $(PKG_INSTALL_DIR)/bin/procs $(1)/usr/bin/
 ##  	$(INSTALL_DIR) $(1)/etc/minidsp
