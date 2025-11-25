@@ -28,3 +28,15 @@ endef
 define Package/ezbeq/description
   A simple web browser for beqcatalogue which integrates with minidsp-rs for local remote control of a minidsp or HTP-1.
 endef
+
+include $(INCLUDE_DIR)/package.mk
+##include ../python-package.mk
+include ../python3-package.mk
+
+
+define Build/Compile
+# Nothing to compile
+endef
+
+# required command 
+$(eval $(call BuildPackage,$(PKG_NAME)))
