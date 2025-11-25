@@ -30,8 +30,9 @@ define Package/ezbeq/description
 endef
 
 include $(INCLUDE_DIR)/package.mk
-##include ../python-package.mk
-include ../python3-package.mk
+## include ../python-package.mk
+## include ../python3-package.mk
+include $(TOPDIR)/feeds/packages/lang/python/python3-package.mk
 
 
 define Build/Compile
