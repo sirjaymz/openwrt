@@ -15,13 +15,13 @@ PKG_MAINTAINER:=sirjaymz@gmail.com
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE
 PKG_URL:=https://github.com/sirjaymz/openwrt/ezbeq
-PKG_BUILD_DEPENDS:=python3/host
+PKG_BUILD_DEPENDS:=python3/host python3-venv/host python3-pip/host libyaml/host 
 ## PKG_BUILD_PARALLEL:=1
 
 define Package/ezbeq
-  SECTION:=utils
-  CATEGORY:=Utilities
+  CATEGORY:=Multimedia
   TITLE:=ezbeq
+  DEPENDS:=+minidsp-rs 
   URL:=https://github.com/sirjaymz/openwrt/ezbeq
 endef
 

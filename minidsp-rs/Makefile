@@ -20,8 +20,7 @@ PKG_BUILD_DEPENDS:=rust/host
 ## PKG_BUILD_PARALLEL:=1
 
 define Package/minidsp-rs
-  SECTION:=utils
-  CATEGORY:=Utilities
+  CATEGORY:=Multimedia
   TITLE:=minidsp-rs
   DEPENDS:=$(RUST_ARCH_DEPENDS)
   URL:=https://github.com/sirjaymz/openwrt/minidsp-rs
