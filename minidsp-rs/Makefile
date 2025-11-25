@@ -73,5 +73,5 @@ CONFIGURE_VARS += CARGO_HOME=$(CARGO_HOME) RUSTFLAGS=$(RUSTFLAGS)
 ##  TARGET_CFLAGS += -D_LARGEFILE64_SOURCE
 ## endif
 
-$(eval $(call RustBinPackage,dgminidsp-rs))
-$(eval $(call BuildPackage,dgminidsp-rs))
+$(eval $(call RustBinPackage,minidsp-rs))
+$(eval $(call BuildPackage,minidsp-rs))
