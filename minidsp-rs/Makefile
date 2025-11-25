@@ -22,13 +22,13 @@ PKG_BUILD_DEPENDS:=rust/host
 define Package/minidsp-rs
   SECTION:=utils
   CATEGORY:=Utilities
-  TITLE:=minidsp-rs is from mrene to control Minidsp.com devices
+  TITLE:=minidsp-rs
   DEPENDS:=$(RUST_ARCH_DEPENDS)
   URL:=https://github.com/sirjaymz/openwrt/minidsp-rs
 endef
 
 define Package/minidsp-rs/description
-  minidsp-rs is an alternative control software for certain MiniDSP products. It exposes most (if not all) of the available configuration parameters in a command line package, with an optional HTTP API in order to integrate with custom DIY audio projects.
+  minidsp-rs is from mrene to control Minidsp.com devices. minidsp-rs is an alternative control software for certain MiniDSP products. It exposes most (if not all) of the available configuration parameters in a command line package, with an optional HTTP API in order to integrate with custom DIY audio projects.
 endef
 
 include $(INCLUDE_DIR)/package.mk
