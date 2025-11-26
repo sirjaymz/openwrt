@@ -31,8 +31,8 @@ define Package/minidsp-rs/description
 endef
 
 include $(INCLUDE_DIR)/package.mk
-include $(TOPDIR)/feeds/packages/lang/rust/rust-package.mk
-## include $(TOPDIR)/feeds/packages/lang/rust/rust-values.mk
+## include $(TOPDIR)/feeds/packages/lang/rust/rust-package.mk
+include $(TOPDIR)/feeds/packages/lang/rust/rust-values.mk
 
 define Build/Compile
   $(call Build/Compile/Cargo,,)
