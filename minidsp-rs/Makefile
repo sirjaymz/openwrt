@@ -27,10 +27,15 @@ define Package/minidsp-rs
 endef
 
 define Package/minidsp-rs/description
-  minidsp-rs is from mrene to control Minidsp.com devices. minidsp-rs is an alternative control software for certain MiniDSP products. It exposes most (if not all) of the available configuration parameters in a command line package, with an optional HTTP API in order to integrate with custom DIY audio projects.
+  minidsp-rs is from mrene on github, used to control Minidsp.com devices. \
+  minidsp-rs is an alternative control software for certain MiniDSP products. \
+  It exposes most (if not all) of the available configuration parameters in a \
+  command line package, with an optional HTTP API in order to integrate with \
+  custom DIY audio projects.
 endef
 
 include $(INCLUDE_DIR)/package.mk
+include $(INCLUDE_DIR)/host-build.mk
 ## include $(TOPDIR)/feeds/packages/lang/rust/rust-package.mk
 include $(TOPDIR)/feeds/packages/lang/rust/rust-values.mk
 
